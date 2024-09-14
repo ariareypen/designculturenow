@@ -3,8 +3,111 @@
 }
 
 main{
-    width: 1366px;
-    height: 2000px;
-    background-color: blanchedalmond;
+    width: 1845px;
+    height: auto;
+    background-color: white;
     margin: 0 auto;
+}
+
+header{
+    width: 1845px;
+    height: 500px;
+    background-color: darkcyan;
+}
+
+nav{
+    width: 1845px;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+}
+nav a{
+    color: black;
+    text-decoration: none;
+    padding: 9px;
+    font-size: 24px;
+    transition: .8s;
+    font-family: "Roboto Condensed", sans-serif;
+    /*line-height: 50px;*/
+}
+nav a:hover{
+    background-color: black;
+    color: white;
+    transform: scale(1.2);
+}
+
+h1{
+    font-family: "Roboto Condensed", sans-serif;
+    color: white;
+}
+
+section{
+    width: 1366px;
+    height: auto;
+    background-color: black;
+    margin: 0 auto;
+}
+
+.foto-erik{
+    width: 600px;
+    height: 400px;
+    background-image: url(../img/erik-arigard.png);
+    transition: .5s;
+}
+
+.foto-erik:hover{
+    background-image: url(../img/erik-arigard2.png);
+}
+
+.foto-julie{
+    width: 600px;
+    height: 400px;
+    margin-left: 50%;
+    background-image: url(../img/julie-bargmann.png);
+    transition: .5s;
+}
+
+.foto-julie:hover{
+    background-image: url(../img/julie-bargmann2.png);
+}
+
+.foto-michael{
+    width: 600px;
+    height: 400px;
+    background-image: url(../img/michael-gabellini.png);
+    transition: .5s;
+}
+
+.foto-michael:hover{
+    background-image: url(../img/michael-gabellini2.png);
+}
+
+.foto-rebeca{
+    width: 600px;
+    height: 400px;
+    margin-left: 50%;
+    background-image: url(../img/Rebeca-Mendez.png);
+    transition: .5s;
+}
+
+.foto-rebeca:hover{
+    background-image: url(../img/Rebeca-Mendez2.png);
+}
+
+footer{
+    width: 1366px;
+    height: 250px;
+    background-color: rgb(121, 121, 121);
+    margin: 0 auto;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.Direccion{
+    float: left;
+}
+.mapa{
+    float: right;
 }
